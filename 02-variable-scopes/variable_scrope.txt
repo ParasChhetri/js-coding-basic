@@ -1,0 +1,13 @@
+Global Scope :=>
+Variables declared outside any function or block are in the global scope.
+These variables are accessible throughout the entire script, including inside functions and blocks.
+Variables in Global Scope are declared using var, let, or const at the top level.
+
+Function Scope :=> 
+Variables declared with var inside a function are accessible only within that function.
+Variables declared using var inside a function.
+
+Block Scope :=> 
+Variables declared with let or const are accessible only within the block "{}" in which they are defined or inside the if else statement as shown in the code.
+These variables can only be declared using let and const for better code writing.
+If we declare a variable using var keyword then that varibale can also be accessible ouside the block, which will generate unnesseray bugs in our code.

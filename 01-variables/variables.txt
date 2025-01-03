@@ -1,0 +1,28 @@
+Varaibles declared using "var" keyword :=>
+The oldest way to declare variables (introduced in ES3).
+var has function scope, meaning it is accessible within the function it is declared in.
+If declared outside a function, it becomes a global variable.
+var declarations are hoisted to the top of their scope, but their values are not initialized until the line of code where the assignment occurs.
+Variables declared with var can be reassigned.
+Variables declared with var can be redeclared in the same scope
+
+
+Variables declared using "let" keyword :=> 
+Introduced in ES6 (2015) to solve issues with var.
+let has block scope, meaning it is only accessible within the block ({}) it is declared in.
+let declarations are hoisted, but they remain in a "temporal dead zone" until the code execution reaches the line where the variable is declared.
+Variables declared with let can be reassigned.
+Variables declared with let cannot be redeclared in the same scope.
+
+Varaibles declared using "const" keyword :=> 
+Introduced in ES6 (2015), primarily for declaring variables that should not be reassigned.
+Like let, const has block scope.
+const declarations are hoisted but also remain in a "temporal dead zone" until the declaration line.
+Variables declared with const cannot be reassigned.
+Variables declared with const cannot be redeclared in the same scope.
+If the const variable holds a reference to an object or array, the object or array can still be modified (the reference is constant, not the data).
+
+
+Use const by default for variables that should not change. 
+Use let for variables that will be reassigned. 
+Avoid using var in modern code due to its lack of block scope and issues with hoisting.

@@ -1,0 +1,13 @@
+Primitive Data Types :=> 
+String
+Number
+Boolean
+Null 
+Undefined
+Bigint
+Symbol
+
+Non Primitive or Derived pr Reference Data Types :=> 
+Object 
+Array
+Function
