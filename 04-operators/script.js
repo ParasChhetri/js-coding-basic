@@ -121,3 +121,26 @@ const checkPlayer = (user) => {
     return user;
 }
 console.log(checkPlayer("vv"));
+
+// A very famous resturant owner Rajan wants to ease things in his business, in such a manner that his accountant will know every member with premium membership will get 50% discount coupon and the regular contomers will get 20% dicount coupon while the first timers will get 10% dicount coupon. So help him in his business.
+const coupon = (memberType) => {
+    let result;
+    switch(memberType) {
+        case "Premium" :
+            result = `coupon50`
+            break;
+        case "Regular" :
+            result = `coupon20`;
+            break;
+        case "First time" :
+            result = `coupon10`;
+            break;
+        case "" :
+            result = `no membership recieved due to empty string`;
+            break;
+        default :
+            result = null;
+    }
+    return result;
+}
+console.log(coupon(""));
