@@ -1,0 +1,13 @@
+arithametic operator
+assignment operator
+ternary operator
+increment and decrement operator
+comparsion operators
+logical operators
+bitwise operators
+string operators
+type operator
+nullish coalescing operator
+optional chaining operator
+spread operator
+rest operator
