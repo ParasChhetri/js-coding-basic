@@ -12,28 +12,7 @@ const checkNumber = (num) => {
     }
 }
 
-// Test case for question 1
-const testCases = [
-    { input: 10, expected: "positive number" },
-    { input: -10, expected: "negative number" },
-    { input: 0, expected: "number is zero" },
-    { input: 0.5, expected: "positive number" },
-    { input: -0.5, expected: "negative number" },
-    { input: 1e10, expected: "positive number" },
-    { input: -1e10, expected: "negative number" },
-    { input: NaN, expected: "number is zero" },
-];
-// testing the question 1
-testCases.forEach(({ input, expected }, index) => {
-    const result = checkNumber(input);
-    console.log(
-        `Test Case ${index + 1}: Input = ${input} | Expected = ${expected} | Result = ${result} | ${
-            result === expected ? "Passed ✅" : "Failed ❌"
-        }`
-    );
-});
-
-
+console.log(checkNumber(12))
 
 // question 2
 const evenOrOdd = (num) => {
@@ -78,4 +57,4 @@ const checkLarger = (num1, num2) => {
     }
 }
 
-console.log(checkLarger(123.716,123.72))
+// console.log(checkLarger(123.716,123.72))
