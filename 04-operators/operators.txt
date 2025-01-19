@@ -11,3 +11,8 @@ nullish coalescing operator
 optional chaining operator
 spread operator
 rest operator
+void operator
+delete operator
+comma operator
+in operator
+operators associativity
